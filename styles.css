@@ -21,7 +21,7 @@
     width: 50%;
     top: 0;
     left: 0;
-    background-color: #0047fa;
+    background-color: #1443ff;
 }
 
 .container .hero{
@@ -59,3 +59,56 @@
 .hero nav .nav-links a .activate{
     color: red;
 }
+.hero .content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   padding-right: 40px;
+    margin-top: 50px;
+}
+
+
+.hero .content .div-tex{
+    width: 40%;
+}
+.hero .content .div-tex h1{
+    margin-bottom: 20px;
+    font-size: 50px;
+    color: #fff;
+}
+.hero .content .div-tex h4{
+    color: #0a1c5c;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.hero .content .div-tex p{
+    color: #efefef;
+    margin-bottom: 50px;
+    font-size: 18px;
+}
+.hero .content .div-tex .btn{
+    padding: 15px 20px;
+    background-color: #0a1c5c;
+    border: 2px solid #0a1c5c;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+.hero .content .div-img {
+   
+    width: 40%;
+ 
+  
+    
+    
+}
+.hero .content .div-img img{
+    width:400px;
+    border-radius: 190px;
+   
+
+}
+
+
