@@ -32,4 +32,30 @@
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(25px);
     border: 3px solid  #0047fa;
+    padding: 0 40px 0 80px;
+    border-radius: 30px;
+    box-shadow: -15px 17px 17px rgba(10, 10, 10, 0.5);
+
+}
+.hero nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+}
+.hero nav .logo{
+    color: #0a225c;
+    font-size: 45px;
+    font-weight: bold;
+}
+.hero nav .nav-links a{
+    color: #242424;
+    margin-left: 40px;
+    text-transform: capitalize;
+    transition: 0.4s;
+}
+.hero nav .nav-links a:hover,
+.hero nav .nav-links a .activate{
+    color: red;
 }
