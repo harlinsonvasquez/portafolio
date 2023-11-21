@@ -99,14 +99,12 @@
 .hero .content .div-img {
    
     width: 40%;
- 
-  
-    
     
 }
 .hero .content .div-img img{
     width:400px;
-    border-radius: 190px;
+    border-radius: 50%;
+    border: 6px solid #0a1c5c;
    
 
 }
