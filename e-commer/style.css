@@ -1,0 +1,43 @@
+*{
+    margin: 0;/* con esto reseteamos todas las propiedades que trae por defecto*/
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style: none;
+    /* text-transform: capitalize; para que la primera letra de cada palabra sea mayuscula*/
+}
+
+.card {
+    margin-top: 20px;
+    min-height: 750px;
+    margin-bottom: 50px;
+}
+
+.form-select{
+    margin-top: 20px;
+}
+
+  .card-body {
+    text-align: center; /* Alinear contenido al centro */
+    border: solid black;
+  }
+  
+.logo{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    margin-left: 280px;
+    align-items: center;
+}
+.logo img{
+    width: 100%;
+}
+
+  .card h2 {
+    margin-bottom: 10px; /* Espacio inferior para el título */
+  }
+  
+  .card-body p {
+    flex-grow: 1; /* El contenido se expandirá para llenar el espacio disponible */
+  }
+  
