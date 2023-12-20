@@ -6,7 +6,7 @@
     text-decoration: none;
 
 }
-.container{
+.container-{
     width: 100%;
     height: 100vh;
     background-color: #f9f9f9;
@@ -14,17 +14,17 @@
     justify-content: center;
     align-items: center;
 }
-.container::before{
+.container-::before{
     content: "";
     position: absolute;
     height: 100%;
     width: 50%;
     top: 0;
     left: 0;
-    background-color: #0047fa;
+    background-color: #1443ff;
 }
 
-.container .hero{
+.container- .hero{
     position: relative;
     z-index: 10;
     height: 85vh;
@@ -46,16 +46,70 @@
 }
 .hero nav .logo{
     color: #0a225c;
-    font-size: 45px;
+    font-size: 55px;
     font-weight: bold;
 }
 .hero nav .nav-links a{
     color: #242424;
     margin-left: 40px;
+    font-size: 20px;
     text-transform: capitalize;
     transition: 0.4s;
 }
 .hero nav .nav-links a:hover,
 .hero nav .nav-links a .activate{
-    color: red;
+    color:blue;
 }
+.hero .content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   padding-right: 40px;
+    margin-top: 50px;
+}
+
+
+.hero .content .div-tex{
+    width: 40%;
+}
+.hero .content .div-tex h1{
+    margin-bottom: 20px;
+    font-size: 50px;
+    color: #fff;
+}
+.hero .content .div-tex h4{
+    color: #0a1c5c;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.hero .content .div-tex p{
+    color: #efefef;
+    margin-bottom: 50px;
+    font-size: 18px;
+}
+.hero .content .div-tex .btn{
+    padding: 15px 20px;
+    background-color: #0a1c5c;
+    border: 2px solid #0a1c5c;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+.hero .content .div-img {
+   
+    width: 40%;
+    
+}
+.hero .content .div-img img{
+    width:400px;
+    border-radius: 50%;
+    border: 6px solid #0a1c5c;
+   
+
+}
+
+
+
+
